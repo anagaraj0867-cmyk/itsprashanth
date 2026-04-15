@@ -26,14 +26,15 @@ export default function Passion() {
           </p>
 
           <p className="font-body text-white/65 text-base md:text-lg leading-[1.85] max-w-2xl mb-10">
-            I recently launched Ranga Antharanga, an initiative dedicated to celebrating and
-            promoting Kannada theatre. I aim to inspire the younger generation to experience the
-            richness of stage drama while supporting talented artists, writers, directors and
-            production teams. Stay connected to discover latest Kannada theatre shows in Bangalore.
+            I recently started an Instagram page called Ranga Antharanga, dedicated to the Kannada
+            Theatre Drama. My vision is to inspire youngsters to attend Kannada stage shows and to
+            support the incredible artists, writers, directors, and production companies behind
+            them. If you want to stay updated on the latest Kannada drama shows in Bangalore,
+            follow the page for more updates.
           </p>
 
           <a
-            href="https://instagram.com/ranga_antharanga"
+            href="https://www.instagram.com/ranga_antharanga"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 border border-teal text-teal font-body font-semibold text-sm px-6 py-3 rounded-sm hover:bg-teal hover:text-bg transition-all duration-300 tracking-wide"

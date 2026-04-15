@@ -16,14 +16,15 @@ export default function Profession() {
 
         <div className="reveal grid md:grid-cols-2 gap-10 md:gap-20 items-start mb-14">
           <p className="font-body text-white/60 text-base md:text-lg leading-[1.85]">
-            IN4ME TECH delivers end-to-end IT solutions across hardware and software, providing
-            reliable and scalable technology since 2022. From infrastructure setup to custom
-            software and ongoing support, we help businesses operate efficiently. Our mission is
-            to empower businesses with cost-effective future-ready solutions.
+            I run a company called IN4ME TECH IT SOLUTIONS PVT LTD — a complete end-to-end
+            solution for all IT related needs in Hardware &amp; Software. Delivering the best
+            service since 2022, my motto is to deliver the best solution to Small and Large Scale
+            Businesses. Check out our webpage at{' '}
+            <a href="https://www.in4metech.com" target="_blank" rel="noopener noreferrer" className="text-teal hover:underline">www.in4metech.com</a>
           </p>
-          <div className="flex flex-col items-start gap-6">
+          <div className="flex flex-col items-start gap-4">
             <a
-              href="https://instagram.com/in4metech"
+              href="https://www.instagram.com/in4metech"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-teal text-bg font-body font-semibold text-sm px-6 py-3 rounded-sm hover:bg-teal-dim transition-colors duration-300 tracking-wide"

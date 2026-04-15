@@ -1,3 +1,12 @@
+const socials = [
+  { label: 'Instagram', href: 'https://www.instagram.com/its_prashanth' },
+  { label: 'YouTube', href: 'https://m.youtube.com/@its_prashanth' },
+  { label: 'X', href: 'https://x.com/itsprashanthk' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/prashanth-k-963332148' },
+  { label: 'Facebook', href: 'https://www.facebook.com/its.prashanth.k/' },
+  { label: 'Snapchat', href: 'https://www.snapchat.com/@its_prashanthk' },
+]
+
 const navLinks = [
   { label: 'My Profession', href: '#profession' },
   { label: 'My Passion', href: '#passion' },
@@ -31,9 +40,22 @@ export default function Footer() {
           <p className="font-body text-teal text-xs tracking-[0.25em] uppercase mb-4 opacity-80">
             Managing Director
           </p>
-          <p className="font-body text-white/45 text-sm leading-relaxed max-w-xs">
+          <p className="font-body text-white/45 text-sm leading-relaxed max-w-xs mb-5">
             IN4ME TECH IT SOLUTIONS PVT LTD
           </p>
+          <div className="flex flex-wrap gap-3">
+            {socials.map((s) => (
+              <a
+                key={s.label}
+                href={s.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-body text-xs text-white/40 hover:text-teal transition-colors duration-300 border border-white/10 hover:border-teal/40 px-2.5 py-1 rounded-sm"
+              >
+                {s.label}
+              </a>
+            ))}
+          </div>
         </div>
 
         <div>

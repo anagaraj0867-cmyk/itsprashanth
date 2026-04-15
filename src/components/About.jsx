@@ -13,7 +13,12 @@ export default function About() {
             Welcome to my digital space. I am Prashanth, a passionate individual dedicated to
             creating meaningful experiences and building lasting connections. With a deep interest
             in technology, creativity, and innovation, I have converted my passion into my
-            profession and strive to push boundaries in everything I do.
+            profession and I strive to push boundaries and explore new frontiers in everything I do.
+            My journey has been shaped by diverse experiences across multiple disciplines, allowing
+            me to bring a unique perspective to every work I undertake. Whether it is crafting
+            compelling digital solutions, sharing insights through content, or collaborating with
+            like-minded professionals, I believe in the power of authentic storytelling with
+            purposeful work.
           </p>
           <div className="mt-8 h-px w-16 bg-teal opacity-60" />
         </div>
